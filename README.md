@@ -95,6 +95,6 @@ Kelas ini adalah titik awal ketika aplikasi dijalankan.
 
 - **Pemisah Kolom (Delimiter)**: Menggunakan karakter koma (`,`). Disarankan tidak menginputkan karakter koma pada field Nama atau Alamat agar proses *parsing* data tidak terganggu.
 - **Exception Handling**:
-    - [cite_start]**Checked Exception**: Digunakan untuk menangani potensi kegagalan akses file pada operasi I/O[cite: 835, 895, 907].
-    - [cite_start]**Unchecked Exception**: Digunakan pada logika bisnis untuk memvalidasi input pengguna[cite: 836, 983, 984].
+    - **Checked Exception**: Digunakan untuk menangani potensi kegagalan akses file pada operasi I/O.
+    - **Unchecked Exception**: Digunakan pada logika bisnis untuk memvalidasi input pengguna.
 - **Thread Safety**: Peluncuran GUI dibungkus dalam `SwingUtilities.invokeLater` untuk memastikan stabilitas performa aplikasi.
